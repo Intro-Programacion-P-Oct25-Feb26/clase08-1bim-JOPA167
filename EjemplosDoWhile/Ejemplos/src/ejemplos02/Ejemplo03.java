@@ -42,5 +42,6 @@ public class Ejemplo03 {
         cadenaFinal = String.format("%s\n", cadenaFinal);
         cadenaFinal = String.format("%s\nLa suma es%.2f", cadenaFinal, sumaNotas);
         System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
+        // se agregan cadenas y un acumulador para la suma 
     }
 }
