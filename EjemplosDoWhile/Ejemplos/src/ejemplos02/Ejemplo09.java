@@ -72,7 +72,7 @@ public class Ejemplo09 {
 
         // promedio = suma / contador_calificaciones;
         promedio = (double) suma / contador_calificaciones;
-        cadenaFinal = String.format("%s\nPromedio de calificaciones: %.2f",
+        cadenaFinal = String.format("%s\nPromedio de calificaciones:  %.2f",
                 cadenaFinal,
                 promedio);
         System.out.printf("%s\n", cadenaFinal);
